@@ -7,10 +7,10 @@
 2. the framework
 
 
-3.IDE 
+3. We are all split equally on the Os we use , 2 people in the group are windows bases and two are macbook based but we have selected Intellij as out IDE for this project
 
 
-4.Storage plan 
+4. For the storage method we decided to use SQLite due to the 
 
 
 5.Addtional choices 
