@@ -13,7 +13,9 @@ Below we will place the documentation accompanied by the process which we will u
  - [Cedric-O Jean-Noel](https://github.com/cjeannoel2005/swe1-project/blob/main/Cedric'sResume.md).
 
 
- - [keaton Surfield](https://github.com/cjeannoel2005/swe1-project/blob/main/Ronald%20Surfield%20Resume.pdf) 
+ - [keaton Surfield](https://github.com/cjeannoel2005/swe1-project/blob/main/Ronald%20Surfield%20Resume.pdf)
+
+   
 This group came together with comon interest that we all are familiar and comfortable using Java.
 We throughly researched the differenct options on what stack to settle on. 
 From that point, we discussed the product we will be selling and decided on the roles for the full length of the
