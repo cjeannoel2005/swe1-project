@@ -16,7 +16,7 @@ Below we will place the documentation accompanied by the process which we will u
  - [keaton Surfield](https://github.com/cjeannoel2005/swe1-project/blob/main/Ronald%20Surfield%20Resume.pdf)
 
 
-  - [Amantur Abdumalikov]{}
+  - [Amantur Abdumalikov](https://github.com/cjeannoel2005/swe1-project/blob/main/AmanturResume.md)
 
 
  - [Aiden Diaz]{}
