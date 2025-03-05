@@ -1,6 +1,8 @@
 # **Cedric-O Jean-Noel's**
 
-[cjeanno1@students.kennesaw.edu]()
+[cjeanno1@students.kennesaw.edu]().
+
+
 [https://www.linkedin.com/in/cedric-ojean-noel/]()
 
 ## TECHNICAL SKILLS 
