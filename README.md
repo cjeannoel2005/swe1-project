@@ -7,19 +7,23 @@ The store will sell sports cars which that side of the project will be accessibl
 There will also be an aministrative side in which they will be able to change the inventory and view the sales history.
 Below we will place the documentation accompanied by the process which we will update accordantly along with the source code in this repository.
 
-## ** Project Plan**
+
+## **Project Plan**
 #### Meet out team: 
--[Cedric-O Jean-Noel](https://github.com/cjeannoel2005/swe1-project/blob/main/Cedric'sResume.md)
+-[Cedric-O Jean-Noel](https://github.com/cjeannoel2005/swe1-project/blob/main/Cedric'sResume.md).
+
+
 -[keaton Surfield](https://github.com/cjeannoel2005/swe1-project/blob/main/Ronald%20Surfield%20Resume.pdf) 
 This group came together with comon interest that we all are familiar and comfortable using Java.
 We throughly researched the differenct options on what stack to settle on. 
 From that point, we discussed the product we will be selling and decided on the roles for the full length of the
 project.
 
-##**Technology Selection**
+
+## **Technology Selection**
 - 
 
-##**Project Gantt Chart**
+## **Project Gantt Chart**
 
 
 this porject will be build using java-Spring (23 , Maven using https://start.spring.io/) 
