@@ -29,11 +29,12 @@ project.
 
 
 ## **Technology Selection**
-- 
+
+
+- For this project we decided to use java with the Spring framework,as database implementation we decided to use SQLite
+- Click [here]{} in order to view the decisions we made in regards of technology stack, why we choose them and the documentation.
 
 ## **Project Gantt Chart**
+- The gantt chart for the following project is avaible to be seen [here]{} along with the deadlines.
 
 
-this porject will be build using java-Spring (23 , Maven using https://start.spring.io/) 
-the product that will be sold is acura cars 
-this project will be code in intellij idea 
