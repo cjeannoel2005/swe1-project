@@ -1,4 +1,4 @@
-# **Cedric-O Jean-Noel's**
+# **Cedric-O Jean-Noel**
 
 [cjeanno1@students.kennesaw.edu]().
 
