@@ -1,4 +1,4 @@
-# **The debuggers - Intro to Software Engineering Project (Group 2)**
+# **The buggers - Intro to Software Engineering Project (Group 2)**
 
 Welcome to the team 2 project repository for SWE 3313, Intro to software engineering. you have now layed your eyes upon the ReadMe file which will contain the documentations, the presentations ,the team resumes and source code as the project is being brought to life and going throught updates. 
 
