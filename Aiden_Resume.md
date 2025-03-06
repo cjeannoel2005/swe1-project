@@ -1,4 +1,4 @@
-# **Aiden DIaz**
+# **Aiden Diaz**
 
 >[adiaz65@students.kennesaw.edu]().
 
