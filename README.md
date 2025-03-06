@@ -14,13 +14,13 @@ Below we will place the documentation accompanied by the process which we will u
  - [Cedric-O Jean-Noel](/Resumes/Cedric_resume.md).
 
 
- - [keaton Surfield](https://github.com/cjeannoel2005/swe1-project/blob/main/Ronald%20Surfield%20Resume.pdf)
+ - [keaton Surfield](/Resumes/Keaton_Resume.md)
 
 
-  - [Amantur Abdumalikov](https://github.com/cjeannoel2005/swe1-project/blob/main/AmanturResume.md)
+  - [Amantur Abdumalikov](/Resumes/Amantur'sResume.md)
 
 
- - [Aiden Diaz](https://github.com/cjeannoel2005/swe1-project/blob/main/Aiden_Resume.md)
+ - [Aiden Diaz](/Aiden_resume.md)
 
    
 This group came together with a common interest that we all are familiar with and comfortable using Java.
@@ -33,7 +33,7 @@ project.
 
 
 - For this project, we decided to use Java with the Spring framework, as database implementation we decided to use SQLite
-- Click [here]{} to view the decisions we made regarding the technology stack, why we chose them, and the documentation.
+- Click [here]{/technologyRequirements.md} to view the decisions we made regarding the technology stack, why we chose them, and the documentation.
 
 ## **Project Gantt Chart**
 - The Gantt Chart for the following project is available to be seen [here]{} along with the deadlines.
