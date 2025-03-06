@@ -12,7 +12,7 @@ Below we will place the documentation accompanied by the process which we will u
 ## **Project Plan**
 
 
-#### Meet our team: 
+## Meet our team: 
  - [Cedric-O Jean-Noel](/Resumes/Cedric_resume.md).
 
 
