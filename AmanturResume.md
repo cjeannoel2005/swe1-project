@@ -3,7 +3,7 @@
 > [aabdumal@students.kennesaw.edu]().
 
 
-[http://linkedin.com/in/amantur-abdumalikov-a34b59354]().
+> [http://linkedin.com/in/amantur-abdumalikov-a34b59354]().
 
 
 ## Education 
