@@ -10,7 +10,7 @@ Below we will place the documentation accompanied by the process which we will u
 
 
 # **Project Plan**
-Our project plan can be found in Youtrack along side the Gantt Chart 
+Our project plan can be found in Youtrack.
 
 ## Meet our team: 
  - [Cedric-O Jean-Noel](/Resumes/Cedric_resume.md).
@@ -44,6 +44,6 @@ project.
 - Click [here](/technologyRequirements.md) to view the decisions we made regarding the technology stack, why we chose them, and the documentation.
 
 ## **Project Gantt Chart**
-- The Gantt Chart for the following project is available to be seen [here]{} along with the deadlines.
+- The Gantt Chart for the following project is available to be seen on Youtrack along with the deadlines.
 
 
