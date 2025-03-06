@@ -1,4 +1,4 @@
-#Team Assignments
+# Team Assignments
 
 ### Cedric 
 - Will the lead Java programmer of the project.
