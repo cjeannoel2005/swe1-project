@@ -10,6 +10,8 @@ Below we will place the documentation accompanied by the process which we will u
 
 
 ## **Project Plan**
+
+
 #### Meet our team: 
  - [Cedric-O Jean-Noel](/Resumes/Cedric_resume.md).
 
@@ -33,7 +35,7 @@ project.
 
 
 - For this project, we decided to use Java with the Spring framework, as database implementation we decided to use SQLite
-- Click [here]{/technologyRequirements.md} to view the decisions we made regarding the technology stack, why we chose them, and the documentation.
+- Click [here](/technologyRequirements.md) to view the decisions we made regarding the technology stack, why we chose them, and the documentation.
 
 ## **Project Gantt Chart**
 - The Gantt Chart for the following project is available to be seen [here]{} along with the deadlines.
