@@ -1,15 +1,16 @@
 # **The buggers - Intro to Software Engineering Project (Group 2)**
 
-Welcome to the team 2 project repository for SWE 3313, Intro to software engineering. you have now layed your eyes upon the ReadMe file which will contain the documentations, the presentations ,the team resumes and source code as the project is being brought to life and going throught updates. 
+Welcome to the team 2 project repository for SWE 3313, Intro to Software Engineering. you have now laid your eyes upon the ReadMe file which will contain the documentation, the presentations, the team's resumes, and source code as the project is being brought to life and going through updates. 
 
-This project will be an e-commerce website built using Java-Spring, the storage method will be SqLite.
-The store will sell sports cars which that side of the project will be accessible to the users. 
-There will also be an aministrative side in which they will be able to change the inventory and view the sales history.
+This project will be an e-commerce website built using Java-Spring, the storage method will be SQLite.
+The user will utilize the project to purchase sports cars via an online shopping interface. 
+There will also be an administrative side which will allow a registered administrator to change the inventory and view the sales history.
+The program will feature a database that will keep track of customers, purchases, and inventory all accessible via the administrator end.
 Below we will place the documentation accompanied by the process which we will update accordantly along with the source code in this repository.
 
 
 ## **Project Plan**
-#### Meet out team: 
+#### Meet our team: 
  - [Cedric-O Jean-Noel](https://github.com/cjeannoel2005/swe1-project/blob/main/Cedric'sResume.md).
 
 
@@ -19,22 +20,22 @@ Below we will place the documentation accompanied by the process which we will u
   - [Amantur Abdumalikov](https://github.com/cjeannoel2005/swe1-project/blob/main/AmanturResume.md)
 
 
- - [Aiden Diaz]{}
+ - [Aiden Diaz](https://github.com/cjeannoel2005/swe1-project/blob/main/Aiden_Resume.md)
 
    
-This group came together with comon interest that we all are familiar and comfortable using Java.
-We throughly researched the differenct options on what stack to settle on. 
-From that point, we discussed the product we will be selling and decided on the roles for the full length of the
+This group came together with a common interest that we all are familiar with and comfortable using Java.
+We thoroughly researched the different options of what stack to settle on. 
+From that point, we discussed the product we would be selling and decided on the roles for the full length of the
 project.
 
 
 ## **Technology Selection**
 
 
-- For this project we decided to use java with the Spring framework,as database implementation we decided to use SQLite
-- Click [here]{} in order to view the decisions we made in regards of technology stack, why we choose them and the documentation.
+- For this project, we decided to use Java with the Spring framework, as database implementation we decided to use SQLite
+- Click [here]{} to view the decisions we made regarding the technology stack, why we chose them, and the documentation.
 
 ## **Project Gantt Chart**
-- The gantt chart for the following project is avaible to be seen [here]{} along with the deadlines.
+- The Gantt Chart for the following project is available to be seen [here]{} along with the deadlines.
 
 
