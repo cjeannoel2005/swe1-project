@@ -29,8 +29,12 @@ This group came together with a common interest that we all are familiar with an
 We thoroughly researched the different options of what stack to settle on. 
 From that point, we discussed the product we would be selling and decided on the roles for the full length of the
 project.
-## Team Assignment 
--to disperse the work from this project equally , we have 2 different sections: The admistrative section and the techincal section. in the link below you will find the team assignment
+## Team Assignment
+
+
+- To disperse the work from this project equally , we have 2 different sections: The admistrative section and the techincal section. in the link below you will find the team assignment
+
+  
 [team assignment](Team_Assignments.md)
 
 ## **Technology Selection**
