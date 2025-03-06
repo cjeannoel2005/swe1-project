@@ -31,7 +31,7 @@ From that point, we discussed the product we would be selling and decided on the
 project.
 ## Team Assignment 
 -to disperse the work from this project equally , we have 2 different sections: The admistrative section and the techincal section. in the link below you will find the team assignment
-[team assignment]{Team_Assignments.md}
+[team assignment](Team_Assignments.md)
 
 ## **Technology Selection**
 
