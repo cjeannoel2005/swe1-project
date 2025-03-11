@@ -1,9 +1,9 @@
-#this page is for the requirements
+# Requirements 
 
-####List of requirements 
+#### List of requirements 
 
 
- ### User side
+### User side
 1. user login
    -unique username
    - 6 character minimum password
@@ -11,7 +11,7 @@
 2. account registration
 
 
-   ### Admin side 
+### Admin side 
 1. admin user access ( can't self register) 
      - login
      - run sales report
