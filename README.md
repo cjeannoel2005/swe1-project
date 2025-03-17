@@ -8,7 +8,7 @@ Welcome to the SWE 3313 Team 2 project repository! This README file contains doc
 Our project plan can be found in Youtrack.
 
 ## Meet our team: 
- - [Cedric-O Jean-Noel](/Resumes/Cedric_resume.md).
+ - [Cedric-O Jean-Noel](/Resumes/Cedric_resume.md)
 
 
  - [keaton Surfield](/Resumes/Keaton_Resume.md)
@@ -17,7 +17,7 @@ Our project plan can be found in Youtrack.
   - [Amantur Abdumalikov](/Resumes/Amantur'sResume.md)
 
 
- - [Aiden Diaz](/Aiden_resume.md)
+ - [Aiden Diaz](/Resumes/Aiden_resume.md)
 
    
 This group came together with a common interest that we all are familiar with and comfortable using Java.
