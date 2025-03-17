@@ -1,12 +1,7 @@
 # **The buggers - Intro to Software Engineering Project (Group 2)**
 
-Welcome to the team 2 project repository for SWE 3313, Intro to Software Engineering. you have now laid your eyes upon the ReadMe file which will contain the documentation, the presentations, the team's resumes, and source code as the project is being brought to life and going through updates. 
+Welcome to the SWE 3313 Team 2 project repository! This README file contains documentation, presentations, team resumes, and source code for an e-commerce website project. The site is built using Java-Spring and SQLite, allowing users to purchase sports cars through an online shopping interface. It includes an admin side for managing inventory and viewing sales history. A database will track customers, purchases, and inventory, with access limited to administrators. Documentation and updates will be provided here as the project progresses.
 
-This project will be an e-commerce website built using Java-Spring, the storage method will be SQLite.
-The user will utilize the project to purchase sports cars via an online shopping interface. 
-There will also be an administrative side which will allow a registered administrator to change the inventory and view the sales history.
-The program will feature a database that will keep track of customers, purchases, and inventory all accessible via the administrator end.
-Below we will place the documentation accompanied by the process which we will update accordantly along with the source code in this repository.
 
 
 # **Project Plan**
