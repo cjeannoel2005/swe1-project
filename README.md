@@ -8,13 +8,13 @@ Welcome to the SWE 3313 Team 2 project repository! This README file contains doc
 Our project plan can be found in Youtrack.
 
 ## Meet our team: 
- - [Cedric-O Jean-Noel](/Resumes/Cedric_resume.md)
-
-
  - [keaton Surfield](/Resumes/Keaton_Resume.md)
 
 
-  - [Amantur Abdumalikov](/Resumes/Amantur'sResume.md)
+ - [Cedric-O Jean-Noel](/Resumes/Cedric_resume.md)
+
+
+ - [Amantur Abdumalikov](/Resumes/Amantur'sResume.md)
 
 
  - [Aiden Diaz](/Resumes/Aiden_resume.md)
@@ -30,12 +30,12 @@ project.
 - To disperse the work from this project equally , we have 2 different sections: The admistrative section and the techincal section. in the link below you will find the team assignment
 
   
-[team assignment](Team_Assignments.md)
+**[Team Assignment](Team_Assignments.md)**
 
 ## **Technology Selection**
 
 
-- For this project, we decided to use Java with the Spring framework, as database implementation we decided to use SQLite
+- For this project, we decided to use Java with the Spring Framework. We are using SQLite as out database storage implementation.
 - Click [here](/technologyRequirements.md) to view the decisions we made regarding the technology stack, why we chose them, and the documentation.
 
 ## **Project Gantt Chart**
