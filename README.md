@@ -27,10 +27,7 @@ project.
 ## Team Assignment
 
 
-- To disperse the work from this project equally , we have 2 different sections: The admistrative section and the techincal section. in the link below you will find the team assignment
-
-  
-**[Team Assignment](Team_Assignments.md)**
+- To disperse the work from this project equally , we have 2 different sections: The admistrative section and the techincal section. Click this link [Team Assignment](Team_Assignments.md) to be directed to the team assignemnt section 
 
 ## **Technology Selection**
 
