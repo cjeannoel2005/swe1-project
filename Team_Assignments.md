@@ -1,23 +1,35 @@
-# Team Assignments
-
-### Cedric 
-- Will the lead Java programmer of the project.
-- Will work on the back-end - and front-end of the project 
-- He will be maintaining the github documentation and
-
-### Keaton
-- Keaton is the project lead.
-- He will also be doing the UI & design for the project.
-- manage the deadlines and set team meetings 
+# **Team Assignments**
 
 
-### Amantur
-- Will be doing the front-end of the project.
-- Will be overseeing the testing and intergration 
+### Keaton - Project Lead 
 
 
-### Aiden
-- Will be presenting all of the different milestones of the project 
-- He will be the main SQLite programmer for this project  
+[Keaton's resume](/Resumes/Keaton_Resume..md)
+- He is responsible for managing deadlines and setting team meetings.
+- He will handle the UI and design aspects of the project.
+
+
+### Cedric - Back-end developer 
+
+
+[Cedric's resume](/Resumes/Cedric_Resume.md)
+- He will work on both the back-end and front-end development.
+- He will be maintaining the github documentation.
+
+
+### Amantur - Front-end developer.
+
+
+[Amantur's resume](/Resumes/Amantur_Resume.md)
+- He will focus on front-end development.
+- He Will be overseeing the testing and intergration.
+
+
+### Aiden - Presenter & Database Developer.
+
+
+[Aiden's resume](/Resumes/Aiden_Resume.md) 
+- Hw will be presenting all of the different milestones of the project.
+- He will be the SQLite programmer for this project.
 
 
