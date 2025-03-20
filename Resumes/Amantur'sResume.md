@@ -8,6 +8,8 @@
 
 ## Education 
 **Kennesaw State University - Bachelor’s in Computer Science**
+
+
 Expected Graduation: May 2027
 
 ## Skills
@@ -15,8 +17,8 @@ Expected Graduation: May 2027
 -**Tool:** IntelliJ, GitHub
 
 ## Experience 
--CSE1321 & L
--CSE1322 & L
+- CSE1321 & L
+- CSE1322 & L
 
 ## Languages 
 - English
@@ -25,7 +27,7 @@ Expected Graduation: May 2027
 - Russian
 
   
--Kyrgyz
+- Kyrgyz
 
 
--Turkish
+- Turkish
