@@ -11,13 +11,13 @@ Our project plan can be found in Youtrack.
  - [keaton Surfield](/Resumes/Keaton_Resume.md)
 
 
- - [Cedric-O Jean-Noel](/Resumes/Cedric_resume.md)
+ - [Cedric-O Jean-Noel](/Resumes/Cedric_Resume.md)
 
 
- - [Amantur Abdumalikov](/Resumes/Amantur'sResume.md)
+ - [Amantur Abdumalikov](/Resumes/Amantur_Resume.md)
 
 
- - [Aiden Diaz](/Resumes/Aiden_resume.md)
+ - [Aiden Diaz](/Resumes/Aiden_Resume.md)
 
    
 This group came together with a common interest that we all are familiar with and comfortable using Java.
