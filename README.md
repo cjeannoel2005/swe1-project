@@ -27,13 +27,13 @@ project.
 ## Team Assignment
 
 
-- To disperse the work from this project equally , we have 2 different sections: The admistrative section and the techincal section. Click this link [Team Assignment](Team_Assignments.md) to be directed to the team assignemnt section 
+- In order to disperse the work from this project equally , we compartmentalized two different sections: the admistrative and the techincal sections. Click this link [Team Assignment](Team_Assignments.md) to be directed to the team assignemnt section 
 
 ## **Technology Selection**
 
 
-- For this project, we decided to use Java with the Spring Framework. We are using SQLite as out database storage implementation.
-- Click [here](/technologyRequirements.md) to view the decisions we made regarding the technology stack, why we chose them, and the documentation.
+- For this project, we decided to use Java with the Spring Framework. We are using SQLite as our database storage implementation.
+- Click [here](/technologyRequirements.md) to view the decisions we made regarding the technology stack and the reasons why we chose them.
 
 ## **Project Gantt Chart**
 - The Gantt Chart for the following project is available to be seen on Youtrack along with the deadlines.
