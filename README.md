@@ -8,7 +8,7 @@ Welcome to the SWE 3313 Team 2 project repository! This README file contains doc
 Our project plan can be found in Youtrack.
 
 ## Meet our team: 
- - [keaton Surfield](/Resumes/Keaton_Resume.md)
+ - [Keaton Surfield](/Resumes/Keaton_Resume.md)
 
 
  - [Cedric-O Jean-Noel](/Resumes/Cedric_Resume.md)
