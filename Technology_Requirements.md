@@ -13,7 +13,7 @@
 - For storage, we decided to use SQLite because of its simple setup, which saves us from having to worry about complex database configuration.
 
 ### Marvel UI
--We will also be using Marvel UI for its easy-to-use pre-built components, which simplify framework integration.
+- We will also be using Marvel UI for its easy-to-use pre-built components, which simplify framework integration.
 
   
 ## Addtional choices
