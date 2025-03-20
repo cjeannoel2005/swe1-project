@@ -7,19 +7,25 @@
 
 
 ## Education 
-** Kennesaw State University - Bachelor’s in Computer Science 
+**Kennesaw State University - Bachelor’s in Computer Science**
 Expected Graduation: May 2027
 
-##Skills
+## Skills
 -**Programming:** Java
 -**Tool:** IntelliJ, GitHub
 
-##Experience 
+## Experience 
 -CSE1321 & L
 -CSE1322 & L
 
-##Languages 
--English
--Russian
+## Languages 
+- English
+
+  
+- Russian
+
+  
 -Kyrgyz
+
+
 -Turkish
