@@ -13,8 +13,10 @@
 Expected Graduation: May 2027
 
 ## Skills
--**Programming:** Java
--**Tool:** IntelliJ, GitHub
+- **Programming:** Java
+
+  
+- **Tool:** IntelliJ, GitHub
 
 ## Experience 
 - CSE1321 & L
