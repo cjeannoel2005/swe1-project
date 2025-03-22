@@ -1,6 +1,6 @@
 # **Amantur Abdumalikov**
 
-> [aabdumal@students.kennesaw.edu]().
+> [aabdumal@students.kennesaw.edu](mailto:aabdumal@students.kennesaw.edu).
 
 
 > [http://linkedin.com/in/amantur-abdumalikov-a34b59354]().
