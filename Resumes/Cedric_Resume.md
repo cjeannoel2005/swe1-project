@@ -1,6 +1,6 @@
 # **Cedric-O Jean-Noel**
 
->[cjeanno1@students.kennesaw.edu]().
+>[cjeanno1@students.kennesaw.edu](mailto:cjeanno1@students.kennesaw.edu).
 
 
 >[https://www.linkedin.com/in/cedric-ojean-noel/]()
