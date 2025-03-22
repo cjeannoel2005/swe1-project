@@ -1,6 +1,6 @@
 # **Aiden Diaz**
 
->[adiaz65@students.kennesaw.edu]().
+>[adiaz65@students.kennesaw.edu](mailto:adiaz65@students.kennesaw.edu).
 
 
 >[https://github.com/BigDuckCode]()
