@@ -10,9 +10,11 @@
 - **Frameworks**: React Native, SQLite
 - **Other skills**: Spanish (Intermediate)
 
-
+  ## TECHNICAL EXPERIENCE
+  **VEX Robotics Referee (January 2024)**
+  
   ## EDUCATION
-  **Kennesaw State University**.
+  **Kennesaw State University/Kennesaw-Marietta, Georgia**.
 
 
   Currently pursuing B.S in Computer Science, Freshman (Fall 2024 - Present)
