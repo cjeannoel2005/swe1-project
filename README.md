@@ -20,23 +20,23 @@ Our project plan can be found in Youtrack.
  - [Aiden Diaz](/Resumes/Aiden_Resume.md)
 
    
-This group came together with a common interest that we all are familiar with and comfortable using Java.
+This group came together with the common interest that we are all familiar with and comfortable using Java.
 We thoroughly researched the different options of what stack to settle on. 
 From that point, we discussed the product we would be selling and decided on the roles for the full length of the
 project.
 ## Team Assignment
 
 
-- In order to disperse the work from this project equally , we compartmentalized two different sections: the admistrative and the techincal sections. Click this link [Team Assignment](Team_Assignments.md) to be directed to the team assignemnt section 
+- To disperse the work from this project equally, we compartmentalized two different sections: the administrative and the technical sections. Click this link [Team Assignment](Team_Assignments.md) to be directed to the team assignment section 
 
 ## **Technology Selection**
 
 
-- For this project, we decided to use Java with the Spring Framework. We are using SQLite as our database storage implementation.
-- Click [here](/technologyRequirements.md) to view the decisions we made regarding the technology stack and the reasons why we chose them.
+- We decided to use Java with the Spring Framework for this project. We are using SQLite as our database storage implementation.
+- Click [here](/technologyRequirements.md) to view the decisions regarding the technology stack and why we chose them.
 
 ## **Project Gantt Chart**
-- The Gantt Chart for the following project is available to be seen on Youtrack along with the deadlines.
+- The Gantt Chart for the following project is available on Youtrack along with the deadlines.
 
 ## **Video Presentations**
 - This is a bank for viewing our video presentations. Click the link to be taken to the following presentation by date:
