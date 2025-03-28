@@ -33,7 +33,7 @@ project.
 
 
 - We decided to use Java with the Spring Framework for this project. We are using SQLite as our database storage implementation.
-- Click [here](/technologyRequirements.md) to view the decisions regarding the technology stack and why we chose them.
+- Click [here](/technology_Requirements.md) to view the decisions regarding the technology stack and why we chose them.
 
 ## **Project Gantt Chart**
 - The Gantt Chart for the following project is available on Youtrack along with the deadlines.
