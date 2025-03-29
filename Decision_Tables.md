@@ -1,13 +1,13 @@
 
 | Conditions/Actions     |  Users | Administration| 
 |------------------------|--------|----------------|
-| Self registration      |   Y    |        Y       |
-| Login with username and password|   Y    |        Y       |
-| Promotion of users to  admin |   N    |        Y       |
-| Search inventory       |   Y    |        Y       |
-| Add/Remove items from chart |   Y    |        Y       |
-| View sales reports     |   N    |        Y       | 
-| View customer information         |   N    |        Y       |
+| Self registration      |   Yes    |        Yes      |
+| Login with username and password|   Yes    |        Yes       |
+| Promotion of users to  admin |   No    |        Yes       |
+| Search inventory       |   Yes    |        Yes       |
+| Add/Remove items from chart |   Yes   |        Yes       |
+| View sales reports     |   No    |        Yes       | 
+| View customer information         |   No    |        Yes      |
 
 
           
