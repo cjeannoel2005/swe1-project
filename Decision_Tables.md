@@ -8,7 +8,6 @@
 | Add/Remove items from chart |   Y    |        Y       |
 | View sales reports     |   N    |        Y       | 
 | View customer information         |   N    |        Y       |
-|------------------------|--------|----------------|
 
 
           
