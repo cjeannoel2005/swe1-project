@@ -1,6 +1,4 @@
 
-
-
-          |Conditions/Actions     |  Users | Administration| 
-          |-----------------------|--------|---------------| 
+| Conditions/Actions     |  Users | Administration| 
+|-----------------------|--------|---------------| 
           
