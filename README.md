@@ -27,7 +27,15 @@ project.
 ## Team Assignment
 
 
-- To disperse the work from this project equally, we compartmentalized two different sections: the administrative and the technical sections. Click this link [Team Assignment](Team_Assignments.md) to be directed to the team assignment section 
+- To disperse the work from this project equally, we compartmentalized two different sections: the administrative and the technical sections. Click this link [Team Assignment](Team_Assignments.md) to be directed to the team assignment section
+
+## Project requirements 
+
+In this part, we highlight the core of this project, including information gathered from the meetings with the clients, detailed system requirements, and a display of functionality.
+- [Elicitation ](Requirements_Elicitation.md)
+- [Use case diagram](UseCase_Diagram.md)
+- [Decision table](Decision_Tables.md)
+
 
 ## **Technology Selection**
 
