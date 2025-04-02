@@ -1,7 +1,7 @@
 # **Team Assignments**
 
 
-### Keaton - Project Lead 
+> ### Keaton - Project Lead 
 
 
 [Keaton's resume](/Resumes/Keaton_Resume..md)
@@ -9,7 +9,7 @@
 - He will handle the UI and design aspects of the project.
 
 
-### Cedric - Back-end developer 
+> ### Cedric - Back-end developer 
 
 
 [Cedric's resume](/Resumes/Cedric_Resume.md)
@@ -17,7 +17,7 @@
 - He will be maintaining the github documentation.
 
 
-### Amantur - Front-end developer.
+> ### Amantur - Front-end developer.
 
 
 [Amantur's resume](/Resumes/Amantur_Resume.md)
@@ -25,7 +25,7 @@
 - He Will be overseeing the testing and intergration.
 
 
-### Aiden - Presenter & Database Developer.
+> ### Aiden - Presenter & Database Developer.
 
 
 [Aiden's resume](/Resumes/Aiden_Resume.md) 
