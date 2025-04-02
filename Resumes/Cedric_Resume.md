@@ -3,7 +3,7 @@
 >[cjeanno1@students.kennesaw.edu](mailto:cjeanno1@students.kennesaw.edu).
 
 
->[https://www.linkedin.com/in/cedric-ojean-noel/]()
+>[https://www.linkedin.com/in/cedric-ojean-noel/](https://www.linkedin.com/in/cedric-ojean-noel/)
 
 ## TECHNICAL SKILLS 
 - **Languages**: Java, C#
