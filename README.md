@@ -29,7 +29,7 @@ project.
 
 - To disperse the work from this project equally, we compartmentalized two different sections: the administrative and the technical sections. Click this link [Team Assignment](Team_Assignments.md) to be directed to the team assignment section
 
-## Project requirements 
+## **Project requirements**
 
 In this part, we highlight the core of this project, including information gathered from the meetings with the clients, detailed system requirements, and a display of functionality.
 - [Elicitation ](Requirements_Elicitation.md)
@@ -45,6 +45,10 @@ In this part, we highlight the core of this project, including information gathe
 
 ## **Project Gantt Chart**
 - The Gantt Chart for the following project is available on Youtrack along with the deadlines.
+
+## **UI Design** 
+
+-[UI Design]{}
 
 ## **Video Presentations**
 - This is a bank for viewing our video presentations. Click the link to be taken to the following presentation by date:
