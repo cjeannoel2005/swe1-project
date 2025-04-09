@@ -47,7 +47,7 @@ In this part, we highlight the core of this project, including information gathe
 - The Gantt Chart for the following project is available on Youtrack along with the deadlines.
 
 ## **UI Design** 
-
+ Below you will find the UI design that was made using Marvel UI.
 - [UI Design](https://marvelapp.com/prototype/1c0e25bj) 
 
 ## **Video Presentations**
