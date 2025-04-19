@@ -8,9 +8,9 @@
 
 ## Product Entity
 
-| productId | name                   | description                                | price       | isSold |
-|------------|------------------------|--------------------------------------------|---------|---------------------|---------|
-| 001        | fiction book  | classic fiction novel with a twist                | 50.00       | FALSE   |
+| productId | name       | description     | price       | isSold |
+|-----------|-------- ---|-----------------|-------------|--------|
+| 001        | fiction book  | classic fiction novel with a twist  | 50.00  | FALSE 
 | 002        | Fantasy       | draculla meets the walking dead love story           | 30.00      | FALSE   |
 | 003        |romance for 44 | small time lawyer finds love and success after moving to a new city    | 150.00     | TRUE    |
 | 004        |engineering book for begineers    | coursework book for first year students           | 10.00  |  FALSE   |
