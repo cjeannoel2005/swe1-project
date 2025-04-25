@@ -11,9 +11,9 @@
 | Table Name        | Description                                                                 |
 |-------------------|-----------------------------------------------------------------------------|
 | `Users`           | Stores user account info including username, email, password, admin status |
-| `ShoppingCarts`   | Tracks each user's cart status, creation time, and checkout status          |
-| `CartItems`       | Links individual books to specific carts and stores quantity selected       |
-| `Inventory`       | Stores book data: ID, title, author, stock status, year, and quantity       |
+| `ShoppingCart`   | Tracks each user's cart status, creation time, and checkout status          |
+| `ShoppingCartItem`       | Links individual books to specific carts and stores quantity selected       |
+| `Inventory`       | Stores book data: ID, title, description, stock status, and quantity       |
 | `Orders`          | Records completed purchases, total cost, order date, and shipping method    |
 | `Shipping`        | Lists available shipping methods and associated prices                      |
 
