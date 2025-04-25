@@ -8,32 +8,36 @@
 
 ## 2. Tables and Stored Entities
 
-| Table Name      | Description                                           |
-|-----------------|-------------------------------------------------------|
-| `users`         | Stores user credentials, email, and admin status     |
-| `products`      | Inventory data including names, prices, and status   |
-| `shipping_types` | Available delivery methods with cost                 |
-| `tax_types`      | Tax categories with corresponding rates              |
+| Table Name        | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| `Users`           | Stores user account info including username, email, password, admin status |
+| `ShoppingCarts`   | Tracks each user's cart status, creation time, and checkout status          |
+| `CartItems`       | Links individual books to specific carts and stores quantity selected       |
+| `Inventory`       | Stores book data: ID, title, author, stock status, year, and quantity       |
+| `Orders`          | Records completed purchases, total cost, order date, and shipping method    |
+| `Shipping`        | Lists available shipping methods and associated prices                      |
 
 ## 3. JDBC Access and Connection
-- Uses a **JDBC driver** to access the database in **SQLite**.
-- DAO (Data Access Object) pattern is used to separate SQL logic from the main application code.
-- SQL statements are handled using `PreparedStatement` for security and performance.
+- Uses a **JDBC driver** (`sqlite-jdbc`) to connect to the SQLite database.
+- DAO (Data Access Object) pattern separates database logic from the business logic.
+- SQL statements are executed using `PreparedStatement` to prevent SQL injection and improve performance.
+- All entities (Users, Inventory, etc.) have corresponding DAO classes for CRUD operations.
 
 ## 4. Why SQLite?
-- Lightweight and embedded – no external database server required.
-- Easy to set up and integrates smoothly with Java through JDBC.
-- Ideal for local development, prototypes, and small-scale applications.
-- Data persists between application restarts (unlike in-memory storage).
+- Lightweight and serverless — no separate database server required.
+- Portable and embeddable within a Java Spring Boot application.
+- Minimal configuration required for local development and testing.
+- Data is persisted to disk and available between application restarts.
 
 ## 5. Seeding and Initialization
-- On startup, the application checks if `bookwarehouse.db` exists.
-  - If it **does not exist**:
-    - Creates all required tables.
-    - Inserts essential **seed data**:
-      - Admin account
-      - Initial products
-      - Shipping and tax types
-  - If it **does exist**:
-    - Connects and loads existing data.
-- Ensures that the application behaves like a real-world system and does not reset data on every run.
+- On application startup:
+  - Checks if `bookwarehouse.db` already exists.
+    - If it **does not exist**:
+      - Creates all required tables based on the schema.
+      - Inserts initial **seed data**:
+        - One admin user
+        - Several inventory items (books)
+        - Common shipping methods (e.g., Standard, Express)
+    - If it **does exist**:
+      - Connects to the existing database and loads data into memory as needed.
+- Ensures realistic behavior similar to production systems (no data resets on each run).
