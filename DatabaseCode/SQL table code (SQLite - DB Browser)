@@ -37,6 +37,12 @@ CREATE TABLE IF NOT EXISTS Inventory (
     imageUrl TEXT  
 );
 
+-- SHIPPING TABLE
+CREATE TABLE IF NOT EXISTS Shipping (
+    shippingType VARCHAR(50) PRIMARY KEY,  
+    price DECIMAL(10, 2) NOT NULL           
+);
+
 -- ORDER TABLE
 CREATE TABLE IF NOT EXISTS Orders (
     orderId INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -50,3 +56,5 @@ CREATE TABLE IF NOT EXISTS Orders (
     grandTotal DECIMAL(10, 2) NOT NULL,
     FOREIGN KEY (cartId) REFERENCES ShoppingCart(cartId),
     FOREIGN KEY (userId) REFERENCES Users(customerId)
+	FOREIGN KEY (shippingType) REFERENCES Shipping(shippingType)
+);
