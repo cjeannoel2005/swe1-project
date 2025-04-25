@@ -1,60 +1,59 @@
-PRAGMA foreign_keys = ON;
-
--- USERS TABLE
-CREATE TABLE IF NOT EXISTS Users (
+-- User Table
+CREATE TABLE User (
     customerId INTEGER PRIMARY KEY AUTOINCREMENT,
-    username VARCHAR(50) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL,
-    isAdmin BOOLEAN DEFAULT 0
+    isAdmin BOOLEAN NOT NULL DEFAULT 0
 );
 
--- SHOPPING CART TABLE
-CREATE TABLE IF NOT EXISTS ShoppingCart (
+-- ShoppingCart Table
+CREATE TABLE ShoppingCart (
     cartId INTEGER PRIMARY KEY AUTOINCREMENT,
-    userId INTEGER NOT NULL,
-    isEmpty BOOLEAN DEFAULT 1,
-    FOREIGN KEY (userId) REFERENCES Users(customerId) ON DELETE CASCADE
+    userId INTEGER,
+    isEmpty BOOLEAN NOT NULL DEFAULT 1,
+    FOREIGN KEY (userId) REFERENCES User(customerId)
 );
 
--- SHOPPING CART ITEM TABLE
-CREATE TABLE IF NOT EXISTS ShoppingCartItem (
+-- ShoppingCartItem Table
+CREATE TABLE ShoppingCartItem (
     cartItemId INTEGER PRIMARY KEY AUTOINCREMENT,
-    cartId INTEGER NOT NULL,
-    bookId INTEGER NOT NULL,
+    cartId INTEGER,
+    bookId VARCHAR(255),
     quantity INTEGER NOT NULL,
-    FOREIGN KEY (cartId) REFERENCES ShoppingCart(cartId) ON DELETE CASCADE,
+    FOREIGN KEY (cartId) REFERENCES ShoppingCart(cartId),
     FOREIGN KEY (bookId) REFERENCES Inventory(bookId)
 );
 
--- INVENTORY TABLE
-CREATE TABLE IF NOT EXISTS Inventory (
-    bookId INTEGER PRIMARY KEY AUTOINCREMENT,
-    title VARCHAR(100) NOT NULL,
-    description TEXT,
+-- Shipping Table
+CREATE TABLE Shipping (
+    shippingType VARCHAR(255) PRIMARY KEY,
+    price DECIMAL(10, 2) NOT NULL
+);
+
+-- Inventory Table
+CREATE TABLE Inventory (
+    bookId VARCHAR(255) PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
     price DECIMAL(10, 2) NOT NULL,
     quantity INTEGER NOT NULL,
-    imageUrl TEXT  
+    inStock BOOLEAN NOT NULL DEFAULT 1,
+    picture VARCHAR(255) NOT NULL
 );
 
--- SHIPPING TABLE
-CREATE TABLE IF NOT EXISTS Shipping (
-    shippingType VARCHAR(50) PRIMARY KEY,  
-    price DECIMAL(10, 2) NOT NULL           
-);
-
--- ORDER TABLE
-CREATE TABLE IF NOT EXISTS Orders (
+-- Order Table
+CREATE TABLE `Order` (
     orderId INTEGER PRIMARY KEY AUTOINCREMENT,
-    cartId INTEGER NOT NULL,
-    userId INTEGER NOT NULL,
-    shippingType VARCHAR(50) NOT NULL,
+    cartId INTEGER,
+    userId INTEGER,
+    shippingType VARCHAR(255),
     shippingAddress VARCHAR(255) NOT NULL,
-    serialNumber INTEGER UNIQUE NOT NULL,
+    serialNumber INTEGER NOT NULL,
     tax DECIMAL(10, 2) NOT NULL,
     subTotal DECIMAL(10, 2) NOT NULL,
     grandTotal DECIMAL(10, 2) NOT NULL,
     FOREIGN KEY (cartId) REFERENCES ShoppingCart(cartId),
-    FOREIGN KEY (userId) REFERENCES Users(customerId)
-	FOREIGN KEY (shippingType) REFERENCES Shipping(shippingType)
+    FOREIGN KEY (userId) REFERENCES User(customerId),
+    FOREIGN KEY (shippingType) REFERENCES Shipping(shippingType)
 );
