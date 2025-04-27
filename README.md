@@ -60,4 +60,4 @@ In this part, we highlight the core of this project, including information gathe
 
   April 9th-  [04/09/2025| Ui design]()
 
-
+  April 20th-  [04/20/2025| Technical design](https://drive.google.com/file/d/1N5uougCBweKeJw_ngrXf8bhQMXk4-c26/view?usp=sharing)
