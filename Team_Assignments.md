@@ -29,7 +29,7 @@
 
 
 [Aiden's resume](/Resumes/Aiden_Resume.md) 
-- Hw will be presenting all of the different milestones of the project.
+- He will be presenting all of the different milestones of the project.
 - He will be the SQLite programmer for this project.
 
 
