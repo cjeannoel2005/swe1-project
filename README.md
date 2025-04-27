@@ -56,7 +56,7 @@ In this part, we highlight the core of this project, including information gathe
   March 5th - [3/5/2025 | Project Plan](https://drive.google.com/file/d/1vihgnnPd1iwCRjwvhvswsGPNx3Gf1c9d/view?usp=sharing)
 
 
-  March 28th- [3/28/2025 | requirements]()
+  March 28th- [3/28/2025 | requirements](https://www.loom.com/share/dad85f7540b1487fab6938aa0f2f6190?sid=cb127bc1-23b9-480f-8e53-a9986128b25d)
 
   April 9th-  [04/09/2025| Ui design]()
 
