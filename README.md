@@ -33,7 +33,7 @@ project.
 
 In this part, we highlight the core of this project, including information gathered from the meetings with the clients, detailed system requirements, and a display of functionality.
 - [Elicitation ](Requirements_Elicitation.md)
-- [Use case diagram](UseCase_Diagram.md)
+- [Use case diagram](UseCase_Diagram.png)
 - [Decision table](Decision_Tables.md)
 
 
