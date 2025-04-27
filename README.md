@@ -56,8 +56,8 @@ In this part, we highlight the core of this project, including information gathe
   March 5th - [3/5/2025 | Project Plan](https://drive.google.com/file/d/1vihgnnPd1iwCRjwvhvswsGPNx3Gf1c9d/view?usp=sharing)
 
 
-  March 28th- [3/28/2025 | requirements](https://www.loom.com/share/dad85f7540b1487fab6938aa0f2f6190?sid=ca38e738-96d4-48e6-ad45-4b1d1d706d33)
+  March 28th- [3/28/2025 | requirements](https://www.loom.com/share/dad85f7540b1487fab6938aa0f2f6190?sid=74e2d9ec-310f-4e2b-9b2a-96f44f24dd3c)
 
-  April 9th-  [04/09/2025| Ui design]()
+  April 9th-  [04/09/2025| Ui design](https://www.loom.com/share/964c5c90850f4c4eacaa1280316c7698?sid=e9535602-d62f-415f-8bd6-a8992c2a4d19)
 
   April 20th-  [04/20/2025| Technical design](https://drive.google.com/file/d/1N5uougCBweKeJw_ngrXf8bhQMXk4-c26/view?usp=sharing)
