@@ -33,7 +33,7 @@ erDiagram
         BOOLEAN inStock
         TEXT picture
     }
-    ORDER {
+    ORDERS {
         INTEGER orderId PK
         INTEGER cartId FK
         INTEGER userId FK
