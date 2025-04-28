@@ -4,9 +4,9 @@
 erDiagram
     USER {
         INTEGER customerId PK
-        VARCHAR username
-        VARCHAR email
-        VARCHAR password
+        TEXT username
+        TEXT email
+        TEXT password
         BOOLEAN isAdmin
     }
     SHOPPINGCART {
@@ -21,28 +21,28 @@ erDiagram
         INTEGER quantity
     }
     SHIPPING {
-        VARCHAR shippingType PK
-        Real price
+        TEXT shippingType PK
+        NUMERIC price
     }
     INVENTORY {
         INTEGER ISBN PK
-        VARCHAR title
+        TEXT title
         TEXT description
-        Real price
+        NUMERIC price
         INTEGER quantity
         BOOLEAN inStock
-        VARCHAR picture
+        TEXT picture
     }
     ORDER {
         INTEGER orderId PK
         INTEGER cartId FK
         INTEGER userId FK
-        VARCHAR shippingType FK
-        VARCHAR shippingAddress
+        TEXT shippingType FK
+        TEXT shippingAddress
         INTEGER serialNumber
-        Real tax
-        Real subTotal
-        Real grandTotal
+        NUMERIC tax
+        NUMERIC subTotal
+        NUMERIC grandTotal
     }
     USER ||--o{ SHOPPINGCART: "has"
     SHOPPINGCART ||--o{ SHOPPINGCARTITEM: "contains"
