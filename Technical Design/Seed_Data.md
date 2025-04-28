@@ -24,7 +24,7 @@
 
 ## Inventory Table
 
-| bookId | title                  | description                               | price | quantity | inStock | picture                   |
+| ISBN | title                  | description                               | price | quantity | inStock | picture                   |
 |--------|------------------------|-------------------------------------------|-------|----------|---------|----------------------------|
 | B001   | The Great Gatsby        | A classic novel by F. Scott Fitzgerald.   | 10.99 | 50       | TRUE    | /images/gatsby.jpg         |
 | B002   | 1984                    | A dystopian novel by George Orwell.       | 8.99  | 30       | TRUE    | /images/1984.jpg           |
