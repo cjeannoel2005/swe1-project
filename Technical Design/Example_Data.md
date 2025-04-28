@@ -35,7 +35,7 @@
 
 ---
 
-## Order Table
+## Orders Table
 
 | orderId | cartId | userId | shippingType | shippingAddress                       | serialNumber | tax   | subTotal | grandTotal |
 |---------|--------|--------|--------------|---------------------------------------|--------------|-------|----------|------------|
