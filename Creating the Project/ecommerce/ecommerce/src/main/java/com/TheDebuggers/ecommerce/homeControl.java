@@ -21,4 +21,17 @@ public class homeControl {
         public String checkoutPage(){
         return "checkout";
         }
+
+        @GetMapping("/register")
+        public String registerPage(){
+        return "register";
+        }
+        @GetMapping("/ShoppingCart")
+        public String ShoppingCartPage(){
+            return "ShoppingCart";
+            }
+        @GetMapping("/adminPage")
+    public String AdminPage(){
+        return "AdminPage";
+        }
 }
