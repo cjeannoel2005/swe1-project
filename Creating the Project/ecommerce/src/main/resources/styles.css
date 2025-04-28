@@ -1,0 +1,23 @@
+t
+
+/**this is for styling the page adding color and changing the  **/
+body{
+    font-style: italic;
+    color: darkblue;
+    background-color: azure;
+}
+.navbar ul{
+    list-style-type:none;
+    overflow: hidden;
+    position: fixed;
+    top: auto;
+    margin-top: 0cm;
+}
+.navbar ul li{
+    float: none;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    color: white;
+}
