@@ -1,17 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Page</title>
+  <style>
+    /* BACK TO HOME Button */
+    .back-home {
+      color: #47525E;
+      font-family: Lato, sans-serif;
+      font-size: 35px;
+      line-height: 45px;
+      text-align: left;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    /* Form fields */
+    .form-label {
+      color: #FFFFFF;
+      font-family: Lato, sans-serif;
+      font-size: 40px;
+      line-height: 52px;
+      text-align: left;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    /* REGISTER Button */
+    .register-btn {
+      color: #FFFFFF;
+      font-family: Lato, sans-serif;
+      font-size: 40px;
+      line-height: 52px;
+      text-align: center;
+      background-color: #47525E;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin-top: 20px;
+    }
+
+    /* Page background */
+    body {
+      background-color: #1A1A1A;
+      padding: 40px;
+      font-family: Lato, sans-serif;
+    }
+
+    .form-container {
+      max-width: 500px;
+      margin: auto;
+      background: #2E2E2E;
+      padding: 40px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
- <section id="login">
 
+  <a href="#" class="back-home">← BACK TO HOME</a>
 
+  <div class="form-container">
+    <label for="username" class="form-label">USERNAME</label>
+    <input type="text" id="username" name="username">
 
+    <label for="email" class="form-label">EMAIL</label>
+    <input type="email" id="email" name="email">
 
+    <label for="password" class="form-label">PASSWORD</label>
+    <input type="password" id="password" name="password">
 
+    <button class="register-btn">REGISTER</button>
+  </div>
 
- </section>
 </body>
 </html>
