@@ -1,0 +1,116 @@
+/* --- Global --- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+  }
+  
+  /* --- Top nav --- */
+  .admin-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  .admin-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .admin-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* --- Container & header --- */
+  .container {
+    padding: 2rem;
+  }
+  .admin-header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* --- Export button --- */
+  .export {
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+  .export-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #6c757d;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .export-btn:hover {
+    background: #5a6268;
+  }
+  
+  /* --- Two-column layout --- */
+  .content {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  /* --- Orders table --- */
+  .orders-section {
+    flex: 1;
+  }
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .orders-table th,
+  .orders-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  .orders-table th {
+    color: #555;
+  }
+  .view-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .view-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* --- Receipt panel --- */
+  .receipt-section {
+    width: 300px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  .receipt-section h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  .receipt-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .receipt-section th,
+  .receipt-section td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  .receipt-section th {
+    color: #555;
+    text-align: left;
+  }
+  .empty {
+    text-align: center;
+    color: #777;
+  }
+  

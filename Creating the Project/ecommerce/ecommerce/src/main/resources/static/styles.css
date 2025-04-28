@@ -1,0 +1,49 @@
+t
+
+/**this is for styling the page adding color and changing the  **/
+body{
+    text-align: center;
+    font-style: Lato;
+    color: azure;
+    background-color: rgb(209, 219, 222);
+}
+
+.login-container {
+    background: azure;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
+    width: 340px;
+  }
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #bfbfbf;
+  }
+
+
+button {
+    width: 245px;
+    padding: .75rem;
+    background: azure;
+    border: none;
+    border-radius: 4px;
+    color: #090404;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: hsla(210, 31%, 19%, 0.556);
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #1a30477c;
+  }
+  
+  .signup-link a {
+    color: #1a30477c;
+    text-decoration: none;
+  }
