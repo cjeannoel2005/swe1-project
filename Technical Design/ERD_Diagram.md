@@ -47,5 +47,5 @@ erDiagram
     USER ||--o{ SHOPPINGCART: "has"
     SHOPPINGCART ||--o{ SHOPPINGCARTITEM: "contains"
     SHOPPINGCARTITEM }o--|{ INVENTORY: "refers to"
-    SHOPPINGCART ||--o{ ORDER: "creates"
-    ORDER }|--|| SHIPPING: "uses"
+    SHOPPINGCART ||--o{ ORDERS: "creates"
+    ORDERS }|--|| SHIPPING: "uses"
