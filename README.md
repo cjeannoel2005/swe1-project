@@ -64,3 +64,5 @@ In this part, we highlight the core of this project, including information gathe
   April 9th -  [04/09/2025| Ui design](https://www.loom.com/share/6f1c8116b0e349b682e3227df03ed0c6?t=1&sid=f79782f0-888a-43c4-8a1e-79d890167ad2)
 
   April 20th -  [04/20/2025| Technical design](https://drive.google.com/file/d/1N5uougCBweKeJw_ngrXf8bhQMXk4-c26/view?usp=sharing)
+
+  April 20th -  [04/20/2025| Technical design](https://www.loom.com/share/0424e4d0648843d28eb8432d2c952c57?sid=f2f2c8c3-8d2c-4d73-adb5-ba572dab1bcd)
