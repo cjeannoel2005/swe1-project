@@ -53,6 +53,14 @@ In this part, we highlight the core of this project, including information gathe
 ## **Technical Design** 
  This section will outline the technical specifications and architectural decisions for our e-commerce application. Here you will find the specifics on our [Database Design Plan](https://github.com/cjeannoel2005/swe1-project/blob/main/Technical%20Design/Data_Storage_Plan.md) and our [Coding Guidelines](https://github.com/cjeannoel2005/swe1-project/blob/main/Technical%20Design/Coding_Rules.md) and general [Implimentation Strategy](https://github.com/cjeannoel2005/swe1-project/blob/main/Technical%20Design/Implementation_Information.md). Also included is some [Seed Data](https://github.com/cjeannoel2005/swe1-project/blob/main/Technical%20Design/Seed_Data.md) and [Example Data](https://github.com/cjeannoel2005/swe1-project/blob/main/Technical%20Design/Example_Data.md) portraying what our site will require and how the database will look once populated with info after we launch version 1. Lastly we devised an [Entity Relationship Diagram](https://github.com/cjeannoel2005/swe1-project/blob/main/Technical%20Design/ERD_Diagram.md) to further understand the interactions between the tables and data in our database.
 
+## **Implementation Process** 
+The implementation process can be completed by the following steps:
+1. Download the Implementation folder
+2. Import the Implementation folder in any ide
+3. Marvel will auto install, wait for completion
+4. If java and Marvel install is successful run application
+5. Enter (http://http://localhost:8080) in your browser to view
+
 ## **Video Presentations**
 - This is a bank for viewing our video presentations. Click the link to be taken to the following presentation by date:
 
