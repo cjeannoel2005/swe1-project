@@ -1,0 +1,63 @@
+-- Database schema for Bookstore E-Commerce
+PRAGMA foreign_keys = ON;
+
+-- Users Table
+CREATE TABLE Users (
+    customerId INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL UNIQUE,
+    email TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    isAdmin BOOLEAN NOT NULL DEFAULT 0  -- 0 = false, 1 = true
+);
+
+-- Shipping Table
+CREATE TABLE Shipping (
+    shippingType TEXT PRIMARY KEY,
+    price NUMERIC NOT NULL
+);
+
+-- Inventory Table
+CREATE TABLE Inventory (
+    ISBN INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    description TEXT,
+    price NUMERIC NOT NULL,
+    quantity INTEGER NOT NULL,
+    picture TEXT,
+    inStock BOOLEAN
+);
+
+-- ShoppingCart Table
+CREATE TABLE ShoppingCart (
+    cartId INTEGER PRIMARY KEY AUTOINCREMENT,
+    userId INTEGER NOT NULL,
+    isEmpty INTEGER NOT NULL DEFAULT 1,
+    FOREIGN KEY (userId) REFERENCES Users(customerId)
+);
+
+-- ShoppingCartItem Table
+CREATE TABLE ShoppingCartItem (
+    cartItemId INTEGER PRIMARY KEY AUTOINCREMENT,
+    cartId INTEGER NOT NULL,
+    ISBN INTEGER NOT NULL,  
+    quantity INTEGER NOT NULL,
+    FOREIGN KEY (cartId) REFERENCES ShoppingCart(cartId),
+    FOREIGN KEY (ISBN) REFERENCES Inventory(ISBN)
+);
+
+-- Orders Table
+CREATE TABLE Orders (
+    orderId INTEGER PRIMARY KEY AUTOINCREMENT,
+    cartId INTEGER NOT NULL,
+    userId INTEGER NOT NULL,
+    shippingType TEXT NOT NULL,
+    shippingAddress TEXT NOT NULL,
+    serialNumber INTEGER NOT NULL UNIQUE,
+    tax NUMERIC NOT NULL,
+    subTotal NUMERIC NOT NULL,
+    grandTotal NUMERIC NOT NULL,
+    FOREIGN KEY (cartId) REFERENCES ShoppingCart(cartId),
+    FOREIGN KEY (userId) REFERENCES Users(customerId),
+    FOREIGN KEY (shippingType) REFERENCES Shipping(shippingType)
+);
+
