@@ -1,10 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8" />
+  <title>Checkout – Book Store</title>
+  <link rel="stylesheet" th:href="@{/css/checkout.css}" />
 </head>
 <body>
+
+  <!-- top nav -->
+  <nav class="nav">
+    <a th:href="@{/}" class="back">&larr; Back To Homepage</a>
+  </nav>
+
+  <div class="checkout-container">
+    <h1>Checkout</h1>
+
+    <form th:action="@{/checkout}" method="post">
+      <!-- CSRF token -->
+      <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+
+      <div class="checkout-form">
+
+        <!-- left side: form fields -->
+        <div class="left">
+          <div class="form-group">
+            <label for="shippingAddress">Shipping Address:</label>
+            <input type="text"
+                   id="shippingAddress"
+                   name="shippingAddress"
+                   placeholder="1010 Southwest Court 31st"
+                   required />
+          </div>
+
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text"
+                   id="phoneNumber"
+                   name="phoneNumber"
+                   placeholder="305 607 1345"
+                   required />
+          </div>
+
+          <div class="form-group">
+            <label for="shippingType">Shipping Type:</label>
+            <input type="text"
+                   id="shippingType"
+                   name="shippingType"
+                   placeholder="Ground"
+                   required />
+          </div>
+
+          <div class="form-group card-group">
+            <label>Card Information:</label>
+            <div class="card-inputs">
+              <input type="text"
+                     id="cardNumber"
+                     name="cardNumber"
+                     placeholder="1234 1234 4321 4321"
+                     maxlength="19"
+                     required />
+
+              <div class="card-details">
+                <input type="text"
+                       id="expiry"
+                       name="expiry"
+                       placeholder="MM / YY"
+                       maxlength="5"
+                       required />
+                <input type="text"
+                       id="cvv"
+                       name="cvv"
+                       placeholder="123"
+                       maxlength="3"
+                       required />
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="confirm-btn">Confirm Purchase</button>
+        </div>
+
+        <!-- right side: diagram/image -->
+        <div class="right">
+          <div class="card-graphic">
+            <img th:src="@{/images/card-diagram.png}"
+                 alt="Card Diagram"
+                 />
+          </div>
+        </div>
+
+      </div>
+    </form>
+  </div>
 
 </body>
 </html>
