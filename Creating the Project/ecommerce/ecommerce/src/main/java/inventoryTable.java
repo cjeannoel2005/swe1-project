@@ -1,4 +1,10 @@
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+
 public class inventoryTable {
+  @Id
   public String bookId;
   public String title ;
   public String description ;
@@ -18,7 +24,7 @@ public class inventoryTable {
     this.picture = bookId;
   }
 
-  // put the setters
+  // put the getters
     public String GetbookId(){return bookId;}
     public String Gettitle(){return title;}
     public String Getdescription(){return description;}
@@ -27,14 +33,14 @@ public class inventoryTable {
     public boolean GetinStock(){return inStock;}
     public String Getpicture(){return picture;}
 
-    //put the getters
+    //put the setters
     // fix this part of the errors
-    public String setBookId(String bookId){this.bookId = bookId;}
-    public String setTitle(String title){this.title = title;}
-    public String setDescription(String description){this.description = description;}
-    public String setPrice(double price){this.price = price;}
-    public String setQuantity(int quantity){this.quantity = quantity;}
-    public String setInStock(boolean inStock){this.inStock = inStock;}
-    public String setPicture(String picture){this.picture = picture;}
+    public void setBookId(String bookId){ this.bookId = bookId; }
+    public void setTitle(String title){this.title = title;}
+    public void setDescription(String description){this.description = description;}
+    public void setPrice(double price){this.price = price;}
+    public void setQuantity(int quantity){this.quantity = quantity;}
+    public void setInStock(boolean inStock){this.inStock = inStock;}
+    public void setPicture(String picture){this.picture = picture;}
 
 }

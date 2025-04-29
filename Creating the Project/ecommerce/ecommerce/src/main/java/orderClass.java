@@ -1,4 +1,9 @@
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class orderClass {
+    @Id
     public int orderId;
     public int cartId;
     public int userId;

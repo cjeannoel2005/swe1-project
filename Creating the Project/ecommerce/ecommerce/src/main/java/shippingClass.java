@@ -1,4 +1,9 @@
+import jakarta.persistence.Entity;
+
+@Entity
+
 public class shippingClass {
+    @Id
      public String shippingType;
      public double price;
 
@@ -11,6 +16,6 @@ public class shippingClass {
      public double getPrice(){return price;}
 
      // the getters
-      public  String setShippingType(String shippingType){this.shippingType = shippingType;}
-     public  String setPrice(double price){this.price = price;}
+      public  void setShippingType(String shippingType){this.shippingType = shippingType;}
+     public  void setPrice(double price){this.price = price;}
 }

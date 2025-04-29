@@ -1,5 +1,10 @@
-public class shoppingCart {
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
+@Entity
+
+public class shoppingCart {
+@Id
     public int cartId;
     public int userId;
     public boolean isEmpty;
@@ -15,9 +20,9 @@ public class shoppingCart {
     public boolean getIsEmpty(){return isEmpty;}
 
     // the setters
-    public int setCartId(int cartId){this.cartId = cartId;}
-    public int setUserId(int userId){this.userId = userId;}
-    public int setIsEmpty(boolean isEmpty){this.isEmpty = isEmpty;}
+    public void setCartId(int cartId){this.cartId = cartId;}
+    public void setUserId(int userId){this.userId = userId;}
+    public void setIsEmpty(boolean isEmpty){this.isEmpty = isEmpty;}
 
 
 }

@@ -1,6 +1,11 @@
-import org.hibernate.type.descriptor.jdbc.VarcharJdbcType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
+
+import org.hibernate.type.descriptor.jdbc.VarcharJdbcType;
+@Entity
 public class userClass {
+    @Id
     public int customerId;
     public String username ;
     public String email;
@@ -26,11 +31,11 @@ public class userClass {
      public boolean isAdmin(){return isAdmin;}
 
     // the getters here
-    public int setCustomerId(int customerId) {this.customerId = customerId;}
-    public int setUsername(String username) {this.username = username;}
-    public int setEmail(String email) {this.email = email;}
-    public int setPassword(String password) {this.password = password;}
-    public boolean  setIsAdmin(boolean isAdmin) {this.isAdmin = isAdmin;}
+    public void setCustomerId(int customerId) {this.customerId = customerId;}
+    public void setUsername(String username) {this.username = username;}
+    public void setEmail(String email) {this.email = email;}
+    public void setPassword(String password) {this.password = password;}
+    public void  setIsAdmin(boolean isAdmin) {this.isAdmin = isAdmin;}
     }
 
 
