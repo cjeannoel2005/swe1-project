@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet">
+</head>
+<body>
+
+<section id="checkout-page">
+    <div class="checkout-formr">
+        <form id="checkOut-form">
+            <label for="shippingAddress">Shipping Adress:</label>
+            <input type="text" id="shippingAddress" name="shippingAddress" required>
+
+            <label for="shippingType">ShippingType:</label>
+            <input type="shippingType" id="shippingType" name="shippingType" required>
+
+            <label for="phoneNumber">phone Number:</label>
+            <input type="phoneNumber" id="phoneNumber" name="phoneNumber" required>
+            <button id="toggle-button"> Confirm purchase  </button>
+             <img  src="cardInfo.png" alt="card information for checkout and more">
+        </form>
+    </div>
+
+
+
+</section>
+</body>
+</html>

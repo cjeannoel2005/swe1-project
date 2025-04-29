@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Purchase Page</title>
+  <style>
+    body {
+      font-family: Lato, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    .back-homepage {
+      color: #47525E;
+      font-size: 35px;
+      line-height: 45px;
+      text-align: left;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+    .book-title {
+      color: #343F4B;
+      font-size: 50px;
+      line-height: 65px;
+      text-align: left;
+      margin: 20px 0;
+    }
+    .price-label {
+      color: #47525E;
+      font-size: 50px;
+      line-height: 65px;
+      text-align: left;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .cost {
+      color: #47525E;
+      font-size: 50px;
+      line-height: 65px;
+      text-align: left;
+      display: inline-block;
+    }
+    .description {
+      color: #47525E;
+      font-size: 21px;
+      line-height: 27px;
+      width: 683px;
+      text-align: left;
+      margin: 30px 0;
+    }
+    .add-to-cart {
+      background-color: #47525E;
+      color: #FFFFFF;
+      font-size: 35px;
+      line-height: 45px;
+      text-align: center;
+      padding: 15px 30px;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .book-photo {
+      width: 541px;
+      height: 724px;
+      object-fit: cover;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#" class="back-homepage">← BACK TO HOMEPAGE</a>
+
+  <h1 class="book-title">Example Book Title</h1>
+
+  <div>
+    <span class="price-label">PRICE:</span>
+    <span class="cost">$24.99</span>
+  </div>
+
+  <p class="description">
+    This is a brief description of the book. It gives readers a quick overview of what they can expect, the themes explored, and why they should consider purchasing it.
+  </p>
+
+  <button class="add-to-cart">ADD TO CART</button>
+
+  <div>
+    <img src="https://via.placeholder.com/541x724.png?text=Book+Photo" alt="Book Photo" class="book-photo">
+  </div>
+
+</body>
+</html>
