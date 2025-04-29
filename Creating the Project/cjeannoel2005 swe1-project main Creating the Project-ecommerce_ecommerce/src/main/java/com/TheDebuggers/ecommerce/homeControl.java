@@ -1,37 +1,43 @@
 package com.TheDebuggers.ecommerce;
 
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+
 @Controller
 public class homeControl {
 
     @GetMapping("/")
     public String homePage() {
-
         return "index";
     }
 
     @GetMapping("/login")
-    public String loginPage(){
+    public String loginPage() {
         return "login";
     }
 
     @GetMapping("/checkout")
-        public String checkoutPage(){
+    public String checkoutPage() {
         return "checkout";
-        }
+    }
 
-        @GetMapping("/register")
-        public String registerPage(){
+    @GetMapping("/register")
+    public String registerPage() {
         return "register";
-        }
-        @GetMapping("/ShoppingCart")
-        public String ShoppingCartPage(){
-            return "ShoppingCart";
-            }
-        @GetMapping("/adminPage")
-    public String AdminPage(){
+    }
+
+    @GetMapping("/shoppingCart")
+    public String shoppingCartPage() {
+        return "ShoppingCart";
+    }
+
+    @GetMapping("/adminPage")
+    public String adminPage() {
         return "AdminPage";
-        }
+    }
+
+    @GetMapping("/bookTemplate")
+    public String bookTemplatePage() {
+        return "Book_Template";
+    }
 }
