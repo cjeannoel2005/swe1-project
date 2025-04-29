@@ -1,0 +1,108 @@
+/* --- reset & fonts --- */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+  }
+  
+  /* --- top nav --- */
+  .nav {
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  .nav .back {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  /* --- main container --- */
+  .checkout-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  .checkout-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* --- form layout --- */
+  .checkout-form {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  /* --- left column --- */
+  .left {
+    flex: 1;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: 500;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* card fields */
+  .card-group .card-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .card-details {
+    display: flex;
+    gap: 1rem;
+  }
+  .card-details input {
+    flex: 1;
+  }
+  
+  /* confirm button */
+  .confirm-btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background: #f4b400;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.125rem;
+    color: #333;
+    cursor: pointer;
+  }
+  .confirm-btn:hover {
+    background: #e2a600;
+  }
+  
+  /* --- right column --- */
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-graphic img {
+    max-width: 100%;
+    height: auto;
+  }
+  
