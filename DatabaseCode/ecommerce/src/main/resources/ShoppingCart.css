@@ -1,0 +1,134 @@
+/* --- Reset & fonts --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  /* --- Top nav --- */
+  .nav {
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  .nav .back {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  /* --- Main container & layout --- */
+  .cart-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  .cart-content {
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  /* --- Items list (left) --- */
+  .items-section {
+    flex: 2;
+  }
+  .items-list {
+    list-style: none;
+  }
+  .item-row {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  .item-row:last-child {
+    border-bottom: none;
+  }
+  .book-img {
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 1rem;
+  }
+  .item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .item-title {
+    font-size: 1.125rem;
+    color: #333;
+  }
+  .item-price {
+    font-size: 1rem;
+    color: #555;
+  }
+  .remove-btn {
+    background: #b59c82;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .remove-btn:hover {
+    background: #a28d75;
+  }
+  
+  /* --- Divider --- */
+  .divider {
+    width: 1px;
+    background: #ddd;
+  }
+  
+  /* --- Summary (right) --- */
+  .summary-section {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fafafa;
+  }
+  .summary-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .summary-info {
+    margin-bottom: 2rem;
+  }
+  .subtotal-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #555;
+  }
+  .subtotal-amount {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    color: #333;
+  }
+  .checkout-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 0.75rem 1.5rem;
+    background: #f4b400;
+    color: #333;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .checkout-btn:hover {
+    background: #e2a600;
+  }
