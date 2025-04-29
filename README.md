@@ -65,4 +65,4 @@ In this part, we highlight the core of this project, including information gathe
 
   April 20th -  [04/20/2025| Technical design](https://drive.google.com/file/d/1N5uougCBweKeJw_ngrXf8bhQMXk4-c26/view?usp=sharing)
 
-  April 20th -  [04/20/2025| Technical design](https://www.loom.com/share/0424e4d0648843d28eb8432d2c952c57?sid=f2f2c8c3-8d2c-4d73-adb5-ba572dab1bcd)
+  April 28th -  [04/28/2025| Implementation Video](https://www.loom.com/share/0424e4d0648843d28eb8432d2c952c57?sid=f2f2c8c3-8d2c-4d73-adb5-ba572dab1bcd)
