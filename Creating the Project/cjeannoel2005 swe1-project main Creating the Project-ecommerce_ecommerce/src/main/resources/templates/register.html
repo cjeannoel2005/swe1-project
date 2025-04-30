@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Registration Page</title>
+  <title>Login Page</title>
   <style>
     /* BACK TO HOME Button */
     .back-home {
@@ -28,7 +28,6 @@
       margin-bottom: 10px;
     }
 
-    input[type="text"],
     input[type="email"],
     input[type="password"] {
       width: 100%;
@@ -39,8 +38,8 @@
       border-radius: 5px;
     }
 
-    /* REGISTER Button */
-    .register-btn {
+    /* LOGIN Button */
+    .login-btn {
       color: #FFFFFF;
       font-family: Lato, sans-serif;
       font-size: 40px;
@@ -53,6 +52,25 @@
       cursor: pointer;
       display: block;
       margin-top: 20px;
+      width: 100%;
+    }
+
+    /* Divider line */
+    hr {
+      border: 0;
+      height: 1px;
+      background-color: #ccc;
+      margin: 20px 0;
+    }
+
+    /* Login heading */
+    .login-heading {
+      color: #FFFFFF;
+      font-family: Lato, sans-serif;
+      font-size: 40px;
+      line-height: 52px;
+      text-align: left;
+      margin-bottom: 30px;
     }
 
     /* Page background */
@@ -73,20 +91,21 @@
 </head>
 <body>
 
-  <a href="/" class="back-home">← BACK TO HOME</a>
+<a href="/" class="back-home">← BACK TO FRONTPAGE</a>
 
-  <div class="form-container">
-    <label for="username" class="form-label">USERNAME</label>
-    <input type="text" id="username" name="username">
+<div class="form-container">
+  <div class="login-heading">Login</div>
 
-    <label for="email" class="form-label">EMAIL</label>
-    <input type="email" id="email" name="email">
+  <hr>
 
-    <label for="password" class="form-label">PASSWORD</label>
-    <input type="password" id="password" name="password">
+  <label for="email" class="form-label">Email</label>
+  <input type="email" id="email" name="email">
 
-    <button class="register-btn">REGISTER</button>
-  </div>
+  <label for="password" class="form-label">Password</label>
+  <input type="password" id="password" name="password">
+
+  <button class="login-btn">LOGIN</button>
+</div>
 
 </body>
 </html>
