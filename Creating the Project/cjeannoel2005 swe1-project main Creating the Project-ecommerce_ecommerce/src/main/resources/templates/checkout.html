@@ -1,29 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Checkout</title>
+    <title>Checkout - ShoeVault</title>
+
+    <!-- import font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+        /* background layout and font */
+        body {
+            background-color: #eee;
+            font-family: 'Bebas Neue', sans-serif;
+            margin: 0;
+            padding: 40px;
+        }
+
+        /* container for the checkout */
+        .checkout-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* section styling */
+        .checkout-section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .checkout-section h2 {
+            margin-bottom: 15px;
+        }
+
+        /* card display styling */
+        .card-display {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .card-row {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .card-label {
+            font-weight: bold;
+            min-width: 150px;
+        }
+
+        /* button styling */
+        .checkout-btn {
+            background-color: black;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 18px;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .checkout-btn:hover {
+            background-color: #333;
+        }
+
+        /* back link */
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        /* card image styling */
+        .card-image {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
 
-<section id="checkout-page">
-    <div class="checkout-formr">
-        <form id="checkOut-form">
-            <label for="shippingAddress">Shipping Adress:</label>
-            <input type="text" id="shippingAddress" name="shippingAddress" required>
+<div class="checkout-container">
+    <h1>Checkout</h1>
 
-            <label for="shippingType">ShippingType:</label>
-            <input type="shippingType" id="shippingType" name="shippingType" required>
-
-            <label for="phoneNumber">phone Number:</label>
-            <input type="phoneNumber" id="phoneNumber" name="phoneNumber" required>
-            <button id="toggle-button"> Confirm purchase  </button>
-             <img  src="cardInfo.png" alt="card information for checkout and more">
-        </form>
+    <div class="checkout-section">
+        <h2>Shipping Address:</h2>
+        <p>1010 Southwest Court 31st</p>
+        <p>Phone Number: 305 607 1345</p>
     </div>
 
+    <div class="checkout-section">
+        <h2>Card Information:</h2>
+        <div class="card-display">
+            <div class="card-row">
+                <span class="card-label">VISA</span>
+                <span>1234 1234 4321 4321</span>
+            </div>
+            <div class="card-row">
+                <span class="card-label">Expiration</span>
+                <span>01 / 27</span>
+            </div>
+            <div class="card-row">
+                <span class="card-label">CVV</span>
+                <span>123</span>
+            </div>
+        </div>
+    </div>
 
+    <div class="checkout-section">
+        <h2>Shipping Type:</h2>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li>Ground</li>
+            <li>Chip</li>
+            <li>Expiration date</li>
+            <li>Magnetic strip</li>
+            <li>BANK</li>
+            <li>Card number</li>
+            <li>Cardholder name</li>
+            <li>Test this prototype</li>
+        </ul>
+    </div>
 
-</section>
+    <img th:src="@{/images/cardInfo.png}" alt="card information for checkout" class="card-image">
+
+    <button class="checkout-btn">Confirm Purchase</button>
+
+    <a href="/cart" class="back-link">Back to Cart</a>
+</div>
+
 </body>
 </html>
