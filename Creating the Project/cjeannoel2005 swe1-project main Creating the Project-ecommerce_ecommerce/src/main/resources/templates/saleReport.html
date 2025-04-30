@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Page - bookWorld</title>
+
+    <!-- importing font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+        /* background layout and fonts */
+        body {
+            background-color: #eee;
+            font-family: 'Bebas Neue', sans-serif;
+            margin: 0;
+            padding: 40px;
+        }
+
+        /* table styling */
+        table {
+            width: 100%;
+            background-color: white;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        /*table header and cells */
+        th, td {
+            padding: 15px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        /* table header */
+        th {
+            background-color: #ddd;
+        }
+
+        /* links */
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* hover effect for links */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* export CSV button */
+        .export-btn {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        /*hover effect for export button */
+        .export-btn:hover {
+            background-color: #333;
+        }
+
+        /* back link */
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        /* section styling */
+        .section-title {
+            font-size: 1.5em;
+            margin: 30px 0 15px 0;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        /* export list styling */
+        .export-list {
+            list-style-type: none;
+            padding-left: 0;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .export-list li {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .item-name {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<a href="/home" class="back-link">← Back To Homepage</a>
+
+<h1 class="section-title">Admin Page</h1>
+
+<!-- sales table -->
+<table>
+    <thead>
+    <tr>
+        <th>Customer Name</th>
+        <th>Date</th>
+        <th>Total Amount</th>
+        <th>Item List</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>John Smith</td>
+        <td>6/23/25</td>
+        <td>$373.50</td>
+        <td><a href="#">[View Receipt]</a></td>
+    </tr>
+    <tr>
+        <td>Jane Doe</td>
+        <td>6/20/25</td>
+        <td>$13.50</td>
+        <td><a href="#">[View Receipt]</a></td>
+    </tr>
+    <tr>
+        <td>Mary Sue</td>
+        <td>6/18/25</td>
+        <td>$93.50</td>
+        <td><a href="#">[View Receipt]</a></td>
+    </tr>
+    <tr>
+        <td>Lord Shadow</td>
+        <td>6/15/25</td>
+        <td>$53.50</td>
+        <td><a href="#">[View Receipt]</a></td>
+    </tr>
+    </tbody>
+</table>
+
+<h1 class="section-title">Export to CSV</h1>
+
+<ul class="export-list">
+    <li><span class="item-name">Item Name</span></li>
+    <li>- Price</li>
+    <li>- The Maze Runner</li>
+    <li>- $14.99</li>
+    <li><span class="item-name">Utopia</span></li>
+    <li>- $95.99</li>
+    <li><span class="item-name">The Great Gatsby</span></li>
+    <li>- $5.99</li>
+</ul>
+
+<!-- export to CSV button -->
+<a href="/exportSalesCsv" class="export-btn">Download CSV</a>
+
+</body>
+</html>
