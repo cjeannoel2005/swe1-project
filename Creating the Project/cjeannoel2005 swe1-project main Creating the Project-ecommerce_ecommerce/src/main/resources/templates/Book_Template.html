@@ -1,93 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Book Purchase Page</title>
-  <style>
-    body {
-      font-family: Lato, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
-    }
-    .back-homepage {
-      color: #47525E;
-      font-size: 35px;
-      line-height: 45px;
-      text-align: left;
-      text-decoration: none;
-      display: inline-block;
-      margin-bottom: 30px;
-    }
-    .book-title {
-      color: #343F4B;
-      font-size: 50px;
-      line-height: 65px;
-      text-align: left;
-      margin: 20px 0;
-    }
-    .price-label {
-      color: #47525E;
-      font-size: 50px;
-      line-height: 65px;
-      text-align: left;
-      display: inline-block;
-      margin-right: 10px;
-    }
-    .cost {
-      color: #47525E;
-      font-size: 50px;
-      line-height: 65px;
-      text-align: left;
-      display: inline-block;
-    }
-    .description {
-      color: #47525E;
-      font-size: 21px;
-      line-height: 27px;
-      width: 683px;
-      text-align: left;
-      margin: 30px 0;
-    }
-    .add-to-cart {
-      background-color: #47525E;
-      color: #FFFFFF;
-      font-size: 35px;
-      line-height: 45px;
-      text-align: center;
-      padding: 15px 30px;
-      border: none;
-      cursor: pointer;
-      display: inline-block;
-      margin-top: 20px;
-    }
-    .book-photo {
-      width: 541px;
-      height: 724px;
-      object-fit: cover;
-      margin-top: 30px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page - BookWorld</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        h2 {
+            margin: 25px 0 15px 0;
+            font-size: 20px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .export-section {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .export-section ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        
+        .export-section li {
+            margin-bottom: 8px;
+        }
+        
+        .item-name {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
-  <a href="#" class="back-homepage">← BACK TO HOMEPAGE</a>
-
-  <h1 class="book-title">Example Book Title</h1>
-
-  <div>
-    <span class="price-label">PRICE:</span>
-    <span class="cost">$24.99</span>
-  </div>
-
-  <p class="description">
-    This is a brief description of the book. It gives readers a quick overview of what they can expect, the themes explored, and why they should consider purchasing it.
-  </p>
-
-  <button class="add-to-cart">ADD TO CART</button>
-
-  <div>
-    <img src="https://via.placeholder.com/541x724.png?text=Book+Photo" alt="Book Photo" class="book-photo">
-  </div>
+    <a href="/" class="back-link">← Back To Homepage</a>
+    
+    <h1>Admin Page</h1>
+    
+    <h2>Addwin Page</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Date</th>
+                <th>Total Amount</th>
+                <th>Item List</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Smith</td>
+                <td>6/23/25</td>
+                <td>$373.50</td>
+                <td><a href="#">[View Receipt]</a></td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>6/20/25</td>
+                <td>$13.50</td>
+                <td><a href="#">[View Receipt]</a></td>
+            </tr>
+            <tr>
+                <td>Mary Sue</td>
+                <td>6/18/25</td>
+                <td>$93.50</td>
+                <td><a href="#">[View Receipt]</a></td>
+            </tr>
+            <tr>
+                <td>Lord Shadow</td>
+                <td>6/15/25</td>
+                <td>$53.50</td>
+                <td><a href="#">[View Receipt]</a></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="export-section">
+        <h2>Export to CSV</h2>
+        <ul>
+            <li><span class="item-name">Item Name</span></li>
+            <li>- Price</li>
+            <li>- The Maze Runner</li>
+            <li>- $14.99</li>
+            <li><span class="item-name">Utopia</span></li>
+            <li>- $95.99</li>
+            <li><span class="item-name">The Great Gatsby</span></li>
+            <li>- $5.99</li>
+        </ul>
+    </div>
 
 </body>
 </html>
