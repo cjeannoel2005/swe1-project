@@ -3,90 +3,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Registration Page</title>
+  <title>Login/Register - BookWorld</title>
   <style>
-    /* BACK TO HOME Button */
-    .back-home {
-      color: #47525E;
-      font-family: Lato, sans-serif;
-      font-size: 35px;
-      line-height: 45px;
-      text-align: left;
-      text-decoration: none;
-      display: inline-block;
-      margin-bottom: 20px;
-    }
-
-    /* Form fields */
-    .form-label {
-      color: #FFFFFF;
-      font-family: Lato, sans-serif;
-      font-size: 40px;
-      line-height: 52px;
-      text-align: left;
-      display: block;
-      margin-bottom: 10px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="password"] {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 30px;
-      font-size: 18px;
-      border: none;
-      border-radius: 5px;
-    }
-
-    /* REGISTER Button */
-    .register-btn {
-      color: #FFFFFF;
-      font-family: Lato, sans-serif;
-      font-size: 40px;
-      line-height: 52px;
-      text-align: center;
-      background-color: #47525E;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      display: block;
-      margin-top: 20px;
-    }
-
-    /* Page background */
+    /* General styling */
     body {
       background-color: #1A1A1A;
       padding: 40px;
-      font-family: Lato, sans-serif;
+      font-family: 'Lato', sans-serif;
+      color: #FFFFFF;
     }
 
+    /* Form container */
     .form-container {
       max-width: 500px;
-      margin: auto;
+      margin: 0 auto;
       background: #2E2E2E;
       padding: 40px;
       border-radius: 10px;
+    }
+
+    /* Back link */
+    .back-home {
+      color: #FFFFFF;
+      font-size: 24px;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    /* Form elements */
+    .form-label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #3E3E3E;
+      color: #FFFFFF;
+    }
+
+    /* Button styling */
+    .auth-btn {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .login-btn {
+      background-color: #47525E;
+      color: #FFFFFF;
+    }
+
+    .register-btn {
+      background-color: #3A4A5E;
+      color: #FFFFFF;
+    }
+
+    /* Divider */
+    .divider {
+      text-align: center;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .divider:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background-color: #555;
+      z-index: 1;
+    }
+
+    .divider-text {
+      display: inline-block;
+      padding: 0 10px;
+      background-color: #2E2E2E;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Footer menu */
+    .footer-menu {
+      margin-top: 50px;
+      color: #777;
+      font-size: 14px;
+      line-height: 1.6;
+      text-align: center;
     }
   </style>
 </head>
 <body>
 
-  <a href="/" class="back-home">← BACK TO HOME</a>
+<a href="/" class="back-home">← Back to frontpage</a>
 
-  <div class="form-container">
-    <label for="username" class="form-label">USERNAME</label>
-    <input type="text" id="username" name="username">
+<div class="form-container">
+  <!-- Email Field -->
+  <label for="email" class="form-label">Email</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email">
 
-    <label for="email" class="form-label">EMAIL</label>
-    <input type="email" id="email" name="email">
+  <!-- Password Field -->
+  <label for="password" class="form-label">Password</label>
+  <input type="password" id="password" name="password" placeholder="Enter your password">
 
-    <label for="password" class="form-label">PASSWORD</label>
-    <input type="password" id="password" name="password">
+  <!-- Login Button -->
+  <button class="auth-btn login-btn">Login</button>
 
-    <button class="register-btn">REGISTER</button>
+  <!-- Divider -->
+  <div class="divider">
+    <span class="divider-text">or</span>
   </div>
+
+  <!-- Register Button -->
+  <button class="auth-btn register-btn">Register</button>
+</div>
+
+<!-- Footer Menu -->
+<div class="footer-menu">
+  <div>Menu</div>
+  <div>&lt; /&gt; Handoff</div>
+  <div>No comments</div>
+  <div>Test this prototype</div>
+</div>
 
 </body>
 </html>
