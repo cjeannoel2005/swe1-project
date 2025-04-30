@@ -1,67 +1,156 @@
 <!DOCTYPE html>
-<!-- Example in index.html -->
-<a href="/ShoppingCart.html">Shopping Cart</a>
-<a href="/login.html">Login</a>
-<a href="/register.html">Register</a>
-
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>BookWorld</title>
-    <!-- link the stylesheet in css to this page -->
-    <link rel="stylesheet" href="/css/styles.css">
+    <title>Book World | Shopping Cart</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        /* Header styling */
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+
+        /* Navigation styling */
+        .nav-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Divider line */
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+
+        /* Book sections */
+        .book-section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .book-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .book-author {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .book-details {
+            margin-left: 20px;
+            color: #555;
+        }
+
+        .book-price {
+            font-weight: bold;
+            color: #006600;
+            margin-top: 10px;
+        }
+
+        /* Admin section */
+        .admin-section {
+            background-color: #e6f2ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
 
+<h1>Book World | Shopping Cart</h1>
 
-<!--this is the top section of the page  -->
-<div class="images-row">
-<div class="navbar">
-    <ul>
-        <li><a href="/shoppingCart">Shopping Cart</a></li>
-        <li><a href="/adminPage">Admin Page</a></li>
-        <li><a href="/login">Login/register</a></li>
-    </ul>
-</div>
-     <!--the first row of books for  the homepage -->
-    <section class="flex-Section1">
-   <img src="utopia.png" alt="Book1">
-        <div class="item-titles">Utopia</div>
-        <div class="item-prices">$95.99</div>
-
-        <img src="womenRuleWorldBoook.png" alt="Book2">
-        <div class="item-titles"> When women rules the world</div>
-        <div class="item-prices">$20.99</div>
-
-        <img src="lightningThiefBook.png" alt="Book3">
-        <div class="item-titles"> The lightning thief</div>
-        <div class="item-prices">$15.99</div>
-
-        <img src="mazeRunnerBook.png" alt="Book4">
-        <div class="item-titles"> The maze runner</div>
-        <div class="item-prices">$14.99</div>
-    </section>
-<!-- the second row of books for the homepage -->
-     <section class="flex-Section2">
-         <img src="frederickDouglasBook.png" alt="Book5">
-         <div class="item-titles">Narrative of the life of Frederick Douglas </div>
-         <div class="item-prices">$10.99</div>
-
-         <img src="feministListBook.png" alt="Book6">
-         <div class="item-titles">Encyclopedia of feminist literature</div>
-         <div class="item-prices">$7.99</div>
-
-         <img src="theGreatGatzyBook.png" alt="Book7">
-         <div class="item-titles"> The great gatzy</div>
-         <div class="item-prices">$5.99</div>
-
-         <img src="softwareBook.png" alt="Book8">
-         <div class="item-titles"> Software Engineering</div>
-         <div class="item-prices">$2.99</div>
-
-     </section>
+<div class="admin-section">
+    <h2>Admin Page</h2>
+    <a href="/login" class="nav-link">Login/Register →</a>
 </div>
 
+<hr>
+
+<div class="book-section">
+    <div class="book-title">UTOPIA</div>
+    <div class="book-author">Thomas More</div>
+
+    <div class="book-details">
+        <div>• W H E N W O M E N A V I 2</div>
+        <div>• W O R L D</div>
+        <div>&nbsp;&nbsp;- Melise de RENAISSES ET FENNY</div>
+        <div>&nbsp;&nbsp;- BARRIER SOULIGANS</div>
+    </div>
+
+    <div class="book-price">$95.99</div>
+</div>
+
+<div class="book-section">
+    <div class="book-title">When Women Ruled the World</div>
+    <div class="book-price">$20.99</div>
+</div>
+
+<div class="book-section">
+    <div class="book-title">The Lightning Thief</div>
+    <div class="book-price">$15.99</div>
+</div>
+
+<div class="book-section">
+    <div class="book-title">The Maze Runner</div>
+    <div class="book-price">$14.99</div>
+</div>
+
+<div class="book-section">
+    <div class="book-title">NARRATIVE OF THE LIFE OF FREDERICK DOUGLASS</div>
+    <div class="book-author">FREDERICK DOUGLASS</div>
+
+    <div class="book-details">
+        <div>• Handoff</div>
+        <div>• No comments</div>
+    </div>
+</div>
+
+<div class="book-section">
+    <div class="book-title">ENCYCLOPEDIA OF FEMINIST LITERATURE</div>
+    <div class="book-details">
+        <div>MARY TALK'S SHOOTS ARE...</div>
+    </div>
+</div>
+
+<div class="book-section">
+    <div class="book-title">The GREAT GATSBY</div>
+    <div class="book-author">Scott Fitzgerald</div>
+</div>
+
+<div class="book-section">
+    <div class="book-title">Software Engineering</div>
+    <div class="book-author">NORD Edition</div>
+    <div class="book-author">Ian Sommerville</div>
+</div>
 
 </body>
-</html>
